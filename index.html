@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A I S T</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/image/logo.png">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="header__container">
+            <img src="./image/logo.png" alt="" class="header__img">
+
+            <a href="#" class="header__logo">A I S T</a>
+
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
+            </div>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <i class='bx bxl-magento nav__icon'></i>
+                    <span class="nav__logo-name">AIST</span>
+                </a>
+
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Profile</h3>
+
+                        <a href="#" class="nav__link active">
+                            <i class='bx bx-home nav__icon'></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Profile</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Home</a>
+                                    <a href="#footer" class="nav__dropdown-item">About</a>
+                                    <a href="#footer" class="nav__dropdown-item">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="./additional/login.html" target="_blank" class="nav__link log">
+                            <i class='bx bx-log-in nav__icon'></i>
+                            <span class="nav__name login log-cont">LogIn - SignUp</span>
+                        </a>
+                    </div>
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Menu</h3>
+
+
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-bell nav__icon'></i>
+                                <span class="nav__name">Products</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Beauty</a>
+                                    <a href="#" class="nav__dropdown-item">Home & Living</a>
+                                    <a href="#" class="nav__dropdown-item">Personal Care</a>
+                                    <a href="#" class="nav__dropdown-item">More</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#pricing" class="nav__link">
+                            <i class='bx bx-compass nav__icon'></i>
+                            <span class="nav__name">Subscription</span>
+                        </a>
+
+                        <a href="#team" class="nav__link">
+                            <i class='bx bx-group nav__icon'></i>
+                            <span class="nav__name login log-cont">Team</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="nav__link nav__logout">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+
+
+    <main class="main">
+        <img class="img" src="./image/pexels-vittorio-staffolani-1606328.jpg" alt="">
+        <section class="content">
+
+
+            <h1 class="cont-head">A I S T</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates
+                magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?
+            </p>
+            <button class="cont-btn">Explore</button>
+
+        </section>
+    </main>
+
+
+    <section class="team" id="team">
+        <h1 class="tittle">Our Team</h1>
+        <div class="team-row">
+            <div class="member">
+                <img src="./image/Harshit.jpg" alt="">
+                <h2>Harshit Kumar</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum</p>
+            </div>
+            <div class="member">
+                <img src="./image/kanu.jpg" alt="">
+                <h2>Kanushka Rajput</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum</p>
+            </div>
+            <div class="member">
+                <img src="./image/tushar.jpg" alt="">
+                <h2>Tushar Arya</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pricing">
+
+        <div class="container">
+            <h2 class="tittle">Membership</h2>
+            <div class="price-row">
+                <div class="price-col">
+                    <p>Starter</p>
+                    <h3>15$ <span>/ month</span></h3>
+                    <ul>
+                        <li>1 website</li>
+                        <li>10 GB Disk Space</li>
+                        <li> Free Email Address</li>
+                        <li> Basic Web Builder</li>
+                        <li> No SSL Certificate</li>
+                        <li> Limited Support</li>
+                    </ul>
+                    <button>Add to Cart</button>
+
+                </div>
+                <div class="price-col">
+                    <p>Advanced</p>
+                    <h3>35$ <span>/ month</span></h3>
+                    <ul>
+                        <li>2 website</li>
+                        <li>50 GB Disk Space</li>
+                        <li> Free Email Address</li>
+                        <li> Medium Web Builder</li>
+                        <li> SSL Certificate</li>
+                        <li> Limited Support</li>
+                    </ul>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="price-col">
+                    <p>Premium</p>
+                    <h3>50$ <span>/ month</span></h3>
+                    <ul>
+                        <li>5 website</li>
+                        <li>100 GB Disk Space</li>
+                        <li> Free Email Address</li>
+                        <li> Advanced Web Builder</li>
+                        <li> SSL Certificate</li>
+                        <li> Unlimited Support</li>
+                    </ul>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer id="footer">
+        <div class="footer-social">
+            <img src="./icons/facebook.svg" alt="">
+            <img src="./icons/instagram.svg" alt="">
+            <img src="./icons/twitter.svg" alt="">
+        </div>
+
+        <div class="copy">
+            <p>Copyright 2022 | Harshit kumar PSD Template | All Right Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
